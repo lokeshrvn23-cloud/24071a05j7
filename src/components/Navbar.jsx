@@ -14,7 +14,6 @@ const Navbar = () => {
         <NavLink to="/courses">Courses</NavLink>
         <NavLink to="/faculty">Faculty</NavLink>
         <NavLink to="/contact">Contact</NavLink>
-        <NavLink to="/marks" style={{ color: 'var(--primary)' }}>Calculator</NavLink>
       </div>
       <div className="nav-links" style={{ gap: '1rem', alignItems: 'center' }}>
         <NavLink to="/login">Login</NavLink>

@@ -8,7 +8,6 @@ import Faculty from './pages/Faculty';
 import Contact from './pages/Contact';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
-import MarksCalculator from './pages/MarksCalculator';
 
 function App() {
   return (
@@ -24,7 +23,6 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
-            <Route path="/marks" element={<MarksCalculator />} />
           </Routes>
         </main>
         <Footer />
