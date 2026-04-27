@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter Marks</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: inline-block; width: 100px; }
+    </style>
+</head>
+<body>
+    <h2>Student Marks Calculator</h2>
+    <form action="MarksServlet" method="POST">
+        <div class="form-group">
+            <label>Subject 1:</label> <input type="number" name="sub1" required min="0" max="100">
+        </div>
+        <div class="form-group">
+            <label>Subject 2:</label> <input type="number" name="sub2" required min="0" max="100">
+        </div>
+        <div class="form-group">
+            <label>Subject 3:</label> <input type="number" name="sub3" required min="0" max="100">
+        </div>
+        <div class="form-group">
+            <label>Subject 4:</label> <input type="number" name="sub4" required min="0" max="100">
+        </div>
+        <div class="form-group">
+            <label>Subject 5:</label> <input type="number" name="sub5" required min="0" max="100">
+        </div>
+        <input type="submit" value="Calculate Total and Average">
+    </form>
+</body>
+</html>
